@@ -45,7 +45,7 @@ public class EventStoreProvider {
         if (FOR_LEVELDB) {
             this.eventStore =
                     LevelDBEventStore
-                            .instance("/data/leveldb/iddd_collaboration_es");
+                            .instance("/home/milano/leveldb/iddd_collaboration_es");
         }
     }
 

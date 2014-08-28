@@ -193,7 +193,7 @@ public class LevelDBEventSourcingEventStoreTest extends TestCase {
 
     @Override
     protected void setUp() throws Exception {
-        this.eventStore = LevelDBEventStore.instance("/data/leveldb/esEventStore");
+        this.eventStore = LevelDBEventStore.instance("/home/milano/leveldb/esEventStore");
 
         DomainEventPublisher.instance().reset();
 

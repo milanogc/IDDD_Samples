@@ -28,7 +28,7 @@ import com.saasovation.common.persistence.PersistenceManagerProvider;
 public class LevelDBPublishedNotificationTrackerStoreTest
         extends TestCase {
 
-    private static final String TEST_DATABASE = "/data/leveldb/iddd_common_test";
+    private static final String TEST_DATABASE = "/home/milano/leveldb/iddd_common_test";
 
     private DB database;
     private EventStore eventStore;
